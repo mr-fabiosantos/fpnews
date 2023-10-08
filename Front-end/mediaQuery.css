@@ -1,0 +1,16 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 567px) {
+    body {
+        background-color: rgb(170, 170, 170);
+    }
+
+    #b_login {
+        display: none;
+    }
+    #aside_site{
+        display: none;
+    }
+}
