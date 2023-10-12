@@ -3,14 +3,91 @@
 
 // Small devices (landscape phones, 576px and up) */
 @media (min-width: 320px) and (max-width: 567px) {
-    body {
-        background-color: rgb(170, 170, 170);
-    }
 
     #b_login {
         display: none;
     }
+    #context1{
+        display: contents;
+    }
+    .p_context{
+        width: 307px;
+        text-align: center;
+        
+    }
     #aside_site{
         display: none;
     }
+
+    #container_bar {
+        justify-content: space-evenly;
+        height: 100%;
+    }
+    #row_bar{
+        justify-content: center;
+        display: flex;
+        height: 420px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .data_archive{
+        text-align: center;
+    }
+
+    img{
+        height: 198px;
+        width: 328px;
+        padding-bottom: 9px;
+    }
+    
+    
+}
+
+@media (min-width: 768px) and (max-width: 1064px) {
+
+
+    #b_login {
+        display: none;
+    }
+    #context1{
+        display: contents;
+    }
+    .p_context{
+        width: 307px;
+        text-align: center;
+    }
+
+    #aside_site{
+        display: none;
+    }
+
+    #container_bar {
+        justify-content: flex-start;
+        height: 100%;
+        gap: 20px;
+    }
+    #row_bar{
+        justify-content: center;
+        display: flex;
+        gap: 20px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .data_archive{
+        text-align: center;
+    }
+
+    img{
+        height: 198px;
+        width: 328px;
+        padding-bottom: 9px;
+    }
+    
+    
 }

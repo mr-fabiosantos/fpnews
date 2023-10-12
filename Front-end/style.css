@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
+    height: 100vh;
 }
 
 /* Style site */
@@ -13,7 +14,7 @@ body {
     margin: 0 0 0 0;
 }
 
-.container-fluid {
+#container_bar {
     justify-content: space-evenly;
 }
 
@@ -38,4 +39,14 @@ body {
 .img_context {
     width: 250px;
     height: 170px;
+}
+
+.bar_footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
