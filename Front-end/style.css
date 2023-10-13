@@ -9,6 +9,10 @@ body {
 }
 
 /* Style site */
+.btn-login-site {
+    width: 70pt;
+}
+
 #logo {
     font-family: 'Autour One', cursive;
     margin: 0 0 0 0;
